@@ -5,13 +5,6 @@ class BazelAT372 < Formula
   sha256 "de255bb42163a915312df9f4b86e5b874b46d9e8d4b72604b5123c3a845ed9b1"
   license "Apache-2.0"
 
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "7ab24050548f7539419bbd310c00c718854e95b2e7d15a74b2c8246588d95480" => :big_sur
-    sha256 "d12919775ba3cde5a7f42582fd9cf10513145485ac4a60170e44a1dac70e04fe" => :catalina
-    sha256 "974514ef8eef4ca3d7d548a28c89335129781db6e65f5ab8795ba5096c4cfae6" => :mojave
-  end
-
   depends_on "python@3.9" => :build
   depends_on "openjdk@11"
 
